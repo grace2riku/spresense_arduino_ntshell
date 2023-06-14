@@ -34,7 +34,7 @@
 #include "ntlibc.h"
 
 #include <Arduino.h>
-#define uart_puts Serial2.print
+#define uart_puts Serial.print
 
 typedef int (*USRCMDFUNC)(int argc, char **argv);
 
